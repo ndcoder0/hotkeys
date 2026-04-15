@@ -4,37 +4,50 @@ $*^CapsLock::Return
 
 <^>!w::vkDE
 <^>!<!w::^
+
 <^>!e::vkBF
 <^>!<!e::`
+
 <^>!r::+
 <^>!<!r::~
+
 <^>!t::'
 <^>!<!t::\
+
 <^>!y::|
 <^>!<!y::¬
+
 <^>!u::Backspace
+<^>!<!u::SendInput "^{Backspace}"
+
 <^>!i::Delete
+<^>!<!i::SendInput "^{Delete}"
+
 <^>!o::Enter
 <^>!p::Esc
+
+<^>!h::Left
+<^>!<!h::SendInput "^{Left}"
+
+<^>!j::Down
+<^>!<!j::End
+
+<^>!k::Up
+<^>!<!k::Home
+
+<^>!l::Right
+<^>!<!l::SendInput "^{Right}"
 
 <^>!a::1
 <^>!s::2
 <^>!d::3
 <^>!f::4
 <^>!g::5
-<^>!h::6
-<^>!j::7
-<^>!k::8
-<^>!l::9
-<^>!ñ::0
+<^>!vkE2::6
+<^>!z::7
+<^>!x::8
+<^>!c::9
+<^>!v::0
 
 <^>!m::,
-
-CapsLock & h::Left
-CapsLock & j::Down
-CapsLock & k::Up
-CapsLock & l::Right
-CapsLock & e::End
-CapsLock & w::Home
-CapsLock & u::SendInput "^{Backspace}"
-CapsLock & i::SendInput "^{Delete}"
+<^>!ñ::´
