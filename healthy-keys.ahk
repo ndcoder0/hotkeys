@@ -26,17 +26,6 @@ $*^CapsLock::Return
 <^>!o::Enter
 <^>!p::Esc
 
-<^>!h::Left
-<^>!<!h::SendInput "^{Left}"
-
-<^>!j::Down
-<^>!<!j::End
-
-<^>!k::Up
-<^>!<!k::Home
-
-<^>!l::Right
-<^>!<!l::SendInput "^{Right}"
 
 <^>!a::1
 <^>!s::2
@@ -47,7 +36,16 @@ $*^CapsLock::Return
 <^>!z::7
 <^>!x::8
 <^>!c::9
-<^>!v::0
+<^>!ñ::0
+
+<^>!h::Left
+<^>!j::Down
+<^>!k::Up
+<^>!l::Right
+
+CapsLock & h::SendInput "^{Left}"
+CapsLock & j::End
+CapsLock & k::Home
+CapsLock & l::SendInput "^{Right}"
 
 <^>!m::,
-<^>!ñ::´
