@@ -38,9 +38,9 @@ $*^CapsLock::Return
 <^>!ñ::0
 
 <^>!z::SendInput "^{Left}"
-<^>!x::End
+<^>!x::SendInput "^{Right}"
 <^>!c::Home
-<^>!v::SendInput "^{Right}"
+<^>!v::End
 
 <^>!m::,
 
