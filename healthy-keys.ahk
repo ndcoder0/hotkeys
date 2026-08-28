@@ -1,27 +1,33 @@
 SetCapsLockState("AlwaysOff")
-$*^CapsLock::Return
+CapsLock::Return
 ,::Shift
+;,::RAlt
+;.::Alt
+;vkE2::Shift
+
+!q::¿
+>!q::@
 
 <^>!w::vkDE
-<^>!<!w::^
+!w::^
 
 <^>!e::vkBF
-<^>!<!e::`
+!e::`
 
 <^>!r::+
-<^>!<!r::~
+!r::~
 
 <^>!t::'
-<^>!<!t::\
+!t::\
 
 <^>!y::|
-<^>!<!y::¬
+!y::¬
 
 <^>!u::Backspace
-<^>!<!u::SendInput "^{Backspace}"
+!u::SendInput "^{Backspace}"
 
 <^>!i::Delete
-<^>!<!i::SendInput "^{Delete}"
+!i::SendInput "^{Delete}"
 
 <^>!o::Enter
 <^>!p::Esc
@@ -37,12 +43,15 @@ $*^CapsLock::Return
 <^>!l::9
 <^>!ñ::0
 
-<^>!z::SendInput "^{Left}"
-<^>!x::SendInput "^{Right}"
-<^>!c::Home
-<^>!v::End
-
+;<^>!z::vkE2
+<^>!x::´
+;<^>!c::.
 <^>!m::,
+
+!a::SendInput "^{Left}"
+!s::Home
+!d::End
+!f::SendInput "^{Right}"
 
 CapsLock & h::Left
 CapsLock & j::Down
