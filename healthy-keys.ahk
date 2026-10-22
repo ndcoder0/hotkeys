@@ -1,9 +1,14 @@
 SetCapsLockState("AlwaysOff")
 CapsLock::Return
 ,::Shift
+
 ;,::RAlt
 ;.::Alt
-;vkE2::Shift
+;z::Shift
+;<^>!z::z
+;<^>!c::.
+
+<^>!m::,
 
 !q::¿
 >!q::@
@@ -42,11 +47,6 @@ CapsLock::Return
 <^>!k::8
 <^>!l::9
 <^>!ñ::0
-
-;<^>!z::vkE2
-<^>!x::´
-;<^>!c::.
-<^>!m::,
 
 !a::SendInput "^{Left}"
 !s::Home
