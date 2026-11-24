@@ -2,6 +2,8 @@ SetCapsLockState("AlwaysOff")
 CapsLock::Return
 ,::Shift
 
+F11::Run "SnippingTool"
+
 ;,::RAlt
 ;.::Alt
 ;z::Shift
